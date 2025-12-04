@@ -1,10 +1,11 @@
+package mains.ejercicio1ApiGestionTareas;
 
-import Exceptions.DatosInvalidosException;
-import Exceptions.ErrorResponse;
-import Exceptions.TareaNoEncontradaException;
-import controler.TareaController;
 import io.javalin.Javalin;
-import services.TareaService;
+import mains.ejercicio1ApiGestionTareas.controller.TareaController;
+import mains.ejercicio1ApiGestionTareas.exceptions.DatosInvalidosException;
+import mains.ejercicio1ApiGestionTareas.exceptions.ErrorResponse;
+import mains.ejercicio1ApiGestionTareas.exceptions.TareaNoEncontradaException;
+import mains.ejercicio1ApiGestionTareas.services.TareaService;
 
 public class mainAPIGestiónTareasEjercicio1 {
     public static void main(String[] args) {

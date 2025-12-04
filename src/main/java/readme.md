@@ -1,4 +1,38 @@
 
+┌─────────────────────────────┐
+│           POST              │
+│─────────────────────────────│
+│ PK  id: int                 │
+│     titulo: String          │
+│     contenido: String       │
+│     autor: String           │
+│     fechaPublicacion:       │
+│         LocalDateTime       │
+└─────────────────────────────┘
+│ 1
+│
+│ tiene
+│
+│ *
+┌─────────────────────────────┐
+│        COMENTARIO           │
+│─────────────────────────────│
+│ PK  id: int                 │
+│     autor: String           │
+│     contenido: String       │
+│     fecha: LocalDateTime    │
+└─────────────────────────────┘
+
+
+
+
+
+
+
+
+
+
+
 src/
 ├── main/
 │   └── AuthAPI.java          (Punto de entrada)
